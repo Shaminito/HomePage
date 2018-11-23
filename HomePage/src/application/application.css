@@ -1,1 +1,29 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.menu_icon {
+	-fx-background-color: #0074FF;
+}
+
+.boton1 {
+	-fx-background-color: red;
+	-fx-background-radius: 3;
+}
+
+.boton2 {
+	-fx-background-color: yellow;
+	-fx-background-radius: 3;
+}
+
+.anchorDark {
+	-fx-background-color: black;
+}
+
+.menu_details {
+	-fx-background-color: white;
+}
+
+.texto {
+	-fx-font-size: 17;
+	-fx-font-family: system;
+	-fx-text-fill: #9A9A9A;
+}
