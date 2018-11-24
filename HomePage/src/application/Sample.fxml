@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="700.0" prefWidth="800.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="700.0" prefWidth="800.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CMain">
    <children>
       <AnchorPane styleClass="menu_icon" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fitHeight="77.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="boton_menu" fitHeight="77.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../img/drawer.png" />
                </image>
@@ -33,55 +33,55 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <JFXButton prefHeight="174.0" prefWidth="289.0">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton1">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="1">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton2" GridPane.columnIndex="1">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="2">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton3" GridPane.columnIndex="2">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.rowIndex="1">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton4" GridPane.rowIndex="1">
                <styleClass>
                   <String fx:value="boton2" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton5" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <styleClass>
                   <String fx:value="boton2" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton6" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <styleClass>
                   <String fx:value="boton2" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.rowIndex="2">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton7" GridPane.rowIndex="2">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton8" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
                </styleClass>
             </JFXButton>
-            <JFXButton prefHeight="174.0" prefWidth="289.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Boton9" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <styleClass>
                   <String fx:value="boton1" />
                   <String fx:value="texto" />
@@ -89,10 +89,10 @@
             </JFXButton>
          </children>
       </GridPane>
-      <AnchorPane styleClass="anchorDark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="menu_details" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="600.0" AnchorPane.topAnchor="77.0">
+      <AnchorPane fx:id="darkBackground" prefHeight="700.0" prefWidth="800.0" styleClass="anchorDark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="menu_Lateral" prefHeight="200.0" prefWidth="200.0" styleClass="menu_details" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="600.0" AnchorPane.topAnchor="77.0">
          <children>
-            <GridPane prefHeight="623.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" />
               </columnConstraints>
@@ -104,15 +104,15 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <JFXButton styleClass="texto" textFill="#9a9a9a" GridPane.halignment="CENTER">
+                  <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="texto" text="Boton1" textFill="#9a9a9a" GridPane.halignment="CENTER">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton styleClass="texto" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                  <JFXButton styleClass="texto" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-                  <JFXButton styleClass="texto" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-                  <JFXButton styleClass="texto" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                  <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="texto" text="Boton2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="texto" text="Boton3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="texto" text="Boton4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <JFXButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="texto" text="Boton5" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
                </children>
             </GridPane>
          </children>
